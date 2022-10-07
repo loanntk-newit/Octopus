@@ -26,14 +26,21 @@ module.exports = {
           "radial-gradient(50% 50% at 50% 50%, #062D50 0%, #071737 100%)",
         "gradient-roadmap":
           "linear-gradient(180deg, #0587FF 32.39%, #23EFE0 100%)",
+        "gradient-border": "linear-gradient(180deg, #0587FF 0%, #23EFE0 100%)",
+        "gradient-icon": "linear-gradient(180deg, #0587FF 0%, #071737 100%)",
       },
       animation: {
         "to-bottom": "toBottom 1s linear",
+        "to-bottom-infinite": "toBottomInfinite 3s linear infinite",
       },
       keyframes: {
         toBottom: {
           "0%": { transform: "translateY(-25%)" },
           "100%": { transform: "translateY(0)" },
+        },
+        toBottomInfinite: {
+          "0%,100%": { transform: "translateY(-10%)" },
+          "50%": { transform: "translateY(0)" },
         },
       },
     },

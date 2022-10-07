@@ -5,7 +5,7 @@ export default function Hero() {
     <div id="home">
       <Container className="flex flex-wrap">
         <div className="flex flex-col md:flex-row justify-between gap-8 items-center w-full mx-auto">
-          <div className="md:max-w-2xl animate-to-bottom">
+          <div className="md:max-w-xl animate-to-bottom">
             <h1 className="text-center  font-extrabold ">
               <p className="text-4xl lg:text-6xl ">Welcome to</p>
               <p className="text-6xl lg:text-8xl text-title">OCTOPUS</p>
@@ -23,11 +23,11 @@ export default function Hero() {
               </button>
             </div>
           </div>
-          <div className="text-center bg-gradient-img">
+          <div className="text-center animate-to-bottom-infinite w-full">
             <img
-              src="/img/image1.png"
+              src="/img/octopus.png"
               alt="OCTOPUS"
-              className="mx-auto max-w-[150px] lg:max-w-sm"
+              className="mx-auto w-full"
             />
           </div>
         </div>

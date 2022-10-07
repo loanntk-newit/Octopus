@@ -5,14 +5,14 @@ export default function About() {
     <div className="min-h-screen" id="about">
       <Container className="flex flex-wrap">
         <div className="flex flex-col-reverse md:flex-row justify-between gap-8 items-center w-full mx-auto">
-          <div className="text-center max-w-md bg-gradient-img">
+          <div className="text-center">
             <img src="/img/about.png" alt="About" className="w-full mx-auto" />
           </div>
           <div className="text-center text-white md:max-w-[50%]">
-            <h2 className="text-6xl lg:text-8xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
+            <h2 className="text-6xl lg:text-8xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight tw-bounce">
               ABOUT
             </h2>
-            <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-justify js-show-on-scroll">
+            <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-justify tw-bounce">
               <span className="font-extrabold text-2xl lg:text-3xl">
                 OCTOPUS
               </span>{" "}

@@ -14,37 +14,71 @@ export default function Features() {
             You will only need an e-mail to get started
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-9 mt-10">
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
-              <img src="/img/" alt="Limit Oders" className="h-28 mx-auto" />
-              <div className="text-2xl font-semibold">Limit Oders</div>
-            </div>
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
-              <img src="/img/" alt="NFTs" className="h-28 mx-auto" />
-              <div className="text-2xl font-semibold">NFTs</div>
-            </div>
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
-              <img src="/img/" alt="Crypto Loans" className="h-28 mx-auto" />
-              <div className="text-2xl font-semibold">Crypto Loans</div>
-            </div>
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
-              <img src="/img/" alt="Smart Contracts" className="h-28 mx-auto" />
-              <div className="text-2xl font-semibold">Smart Contracts</div>
-            </div>
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
               <img
-                src="/img/"
+                src="/img/receipt.png"
+                alt="Limit Oders"
+                className="h-16 mx-auto"
+              />
+              <div className="text-2xl font-semibold mt-8">Limit Oders</div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
+            </div>
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
+              <img src="/img/picture.png" alt="NFTs" className="h-16 mx-auto" />
+              <div className="text-2xl font-semibold mt-8">NFTs</div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
+            </div>
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
+              <img
+                src="/img/finance.png"
+                alt="Crypto Loans"
+                className="h-16 mx-auto"
+              />
+              <div className="text-2xl font-semibold mt-8">Crypto Loans</div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
+            </div>
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
+              <img
+                src="/img/smart-contracts.png"
+                alt="Smart Contracts"
+                className="h-16 mx-auto"
+              />
+              <div className="text-2xl font-semibold mt-8">Smart Contracts</div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
+            </div>
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
+              <img
+                src="/img/decentralized.png"
                 alt="Fully Decentralized"
-                className="h-28 mx-auto"
+                className="h-16 mx-auto"
               />
-              <div className="text-2xl font-semibold">Fully Decentralized</div>
+              <div className="text-2xl font-semibold mt-8">
+                Fully Decentralized
+              </div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
             </div>
-            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500">
+            <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
               <img
-                src="/img/"
+                src="/img/link.png"
                 alt="Cross-Chain Sway"
-                className="h-28 mx-auto"
+                className="h-16 mx-auto"
               />
-              <div className="text-2xl font-semibold">Cross-Chain Sway</div>
+              <div className="text-2xl font-semibold mt-8">
+                Cross-Chain Sway
+              </div>
+              <div className="text-base font-normal">
+                Create, sell, swap and cross-chainNFTs with ease.
+              </div>
             </div>
           </div>
         </div>
