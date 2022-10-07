@@ -8,11 +8,11 @@ export default function About() {
           <div className="text-center">
             <img src="/img/about.png" alt="About" className="w-full mx-auto" />
           </div>
-          <div className="text-center text-white md:max-w-[50%]">
-            <h2 className="text-6xl lg:text-8xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight tw-bounce">
+          <div className="text-center text-white md:max-w-[50%] show-animate-to-bottom">
+            <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight ">
               ABOUT
             </h2>
-            <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-justify tw-bounce">
+            <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-justify ">
               <span className="font-extrabold text-2xl lg:text-3xl">
                 OCTOPUS
               </span>{" "}

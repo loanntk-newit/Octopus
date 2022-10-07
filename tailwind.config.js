@@ -31,12 +31,22 @@ module.exports = {
       },
       animation: {
         "to-bottom": "toBottom 1s linear",
+        "to-right": "toRight 1s linear",
+        fadeIn: "fadeIn 2s linear",
         "to-bottom-infinite": "toBottomInfinite 3s linear infinite",
       },
       keyframes: {
         toBottom: {
           "0%": { transform: "translateY(-25%)" },
           "100%": { transform: "translateY(0)" },
+        },
+        toRight: {
+          "0%": { transform: "translateX(-25%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
         },
         toBottomInfinite: {
           "0%,100%": { transform: "translateY(-10%)" },

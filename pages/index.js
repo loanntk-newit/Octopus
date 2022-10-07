@@ -17,6 +17,7 @@ export default function Home() {
       <Roadmap />
       <Tokenomics />
       <Footer />
+      <div className="animate-to-bottom animate-to-right animate-fadeIn"></div>
     </div>
   );
 }

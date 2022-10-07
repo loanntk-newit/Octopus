@@ -4,12 +4,12 @@ import Container from "./container";
 export default function Tokenomics() {
   return (
     <div id="tokenomics">
-      <Container className="flex items-center mb-20">
+      <Container className="flex items-center mb-20 show-animate-fade-in">
         <div className="text-center w-full">
-          <h2 className="text-6xl lg:text-8xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
+          <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
             Tokenomics
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16 mt-20 show-animate-to-right">
             <div className="relative bg-gradient-border p-1 rounded-3xl text-center group">
               <div className="bg-bg py-20 rounded-3xl">
                 <div className="absolute w-24 h-24 bg-gradient-icon rounded-2xl -top-12 left-11 flex justify-center items-center">
@@ -101,7 +101,7 @@ export default function Tokenomics() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-20">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-20 show-animate-to-bottom">
             <div className="relative bg-gradient-border p-0.5 text-left rounded-l-lg group">
               <div className="bg-bg p-3 rounded-l-lg ">
                 <div className="font-bold">INITIAL MARKET CAP (ESTIMATE)</div>
@@ -127,7 +127,7 @@ export default function Tokenomics() {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6 show-animate-to-bottom">
             <div className="relative bg-gradient-border p-0.5 text-left rounded-l-lg group">
               <div className="bg-bg p-3 rounded-l-lg ">
                 <div className="font-bold">PRESALE END TIME</div>

@@ -5,15 +5,15 @@ export default function Features() {
     <div id="features">
       <Container className="flex items-center ">
         <div className="text-center">
-          <h2 className="text-6xl lg:text-8xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
+          <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight show-animate-to-bottom">
             Network Features
           </h2>
-          <div className="mt-8 text-xl leading-normal w-full lg:w-2/3 mx-auto ">
+          <div className="mt-8 text-xl leading-normal w-full lg:w-2/3 mx-auto show-animate-to-bottom">
             User-friendly and feature-rich wallet released as an application for
             mobile devices The most simple solution to receive and sent funds.
             You will only need an e-mail to get started
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-9 mt-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-9 mt-10 show-animate-to-right">
             <div className="bg-default-600 rounded-3xl p-5 text-center hover:bg-default-500 group transition-all ease-in duration-300">
               <img
                 src="/img/receipt.png"
