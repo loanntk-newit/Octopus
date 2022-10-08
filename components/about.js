@@ -9,7 +9,7 @@ export default function About() {
             <img src="/img/about.png" alt="About" className="w-full mx-auto" />
           </div>
           <div className="text-center text-white md:max-w-[50%] show-animate-to-bottom">
-            <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight ">
+            <h2 className="text-5xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight ">
               ABOUT
             </h2>
             <p className="py-5 text-xl leading-normal lg:text-xl xl:text-2xl text-justify ">

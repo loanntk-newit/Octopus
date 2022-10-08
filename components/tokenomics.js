@@ -6,7 +6,7 @@ export default function Tokenomics() {
     <div id="tokenomics">
       <Container className="flex items-center mb-20">
         <div className="text-center w-full">
-          <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
+          <h2 className="text-5xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
             Tokenomics
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-16 mt-20 show-animate-to-right">
@@ -158,7 +158,7 @@ export default function Tokenomics() {
             <div className="relative bg-gradient-border p-0.5 text-left rounded-lg group">
               <div className="bg-bg p-3 rounded-lg ">
                 <div className="font-bold">Token address</div>
-                <div className="">
+                <div className="overflow-x-auto">
                   <a
                     href="https://bscscan.com/address/0xc907b20DB53634b8365236CA8Bc28E0c4d863239"
                     target={"_blank"}

@@ -5,7 +5,7 @@ export default function Features() {
     <div id="features">
       <Container className="flex items-center ">
         <div className="text-center">
-          <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight show-animate-to-bottom">
+          <h2 className="text-5xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight show-animate-to-bottom">
             Network Features
           </h2>
           <div className="mt-8 text-xl leading-normal w-full lg:w-2/3 mx-auto show-animate-to-bottom">
