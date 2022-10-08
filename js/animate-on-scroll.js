@@ -28,6 +28,16 @@ const callbackFadeIn = function (entries) {
   });
 };
 
+const callbackToTop = function (entries) {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("animate-to-top");
+    } else {
+      entry.target.classList.remove("animate-to-top");
+    }
+  });
+};
+
 if (typeof window !== "undefined") {
   const toBottom = new IntersectionObserver(callbackToBottom);
   const targetsToBottom = document.querySelectorAll(".show-animate-to-bottom");
@@ -45,5 +55,11 @@ if (typeof window !== "undefined") {
   const targetsFadeIn = document.querySelectorAll(".show-animate-fade-in");
   targetsFadeIn.forEach(function (target) {
     fadeIn.observe(target);
+  });
+
+  const toTop = new IntersectionObserver(callbackToTop);
+  const targetsToTop = document.querySelectorAll(".show-animate-to-top");
+  targetsToTop.forEach(function (target) {
+    toTop.observe(target);
   });
 }

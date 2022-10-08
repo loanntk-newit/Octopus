@@ -20,10 +20,10 @@ html {
   content: "";
   position: absolute;
   height: 4px;
-  width: 80%;
+  width: 100%;
   background-color: #0587ff;
   bottom: -10px;
-  left: 10%;
+  left: 0%;
 }
 
 #roadmap .text-after .circle:before {
@@ -38,10 +38,10 @@ html {
   content: "";
   position: absolute;
   height: 4px;
-  width: 80%;
+  width: 100%;
   background-color: #23efe0;
   top: -10px;
-  left: 10%;
+  left: 0;
 }
 @media (max-width: 1024px) {
   #roadmap .text-after .circle:before {
@@ -56,10 +56,10 @@ html {
     content: "";
     position: absolute;
     height: 4px;
-    width: 80%;
+    width: 100%;
     background-color: #0587ff;
     bottom: -10px;
     top: unset;
-    left: 10%;
+    left: 0%;
   }
 }

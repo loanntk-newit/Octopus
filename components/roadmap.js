@@ -14,62 +14,80 @@ export default function Roadmap() {
             of the network. It goal is to improve the economic mode and
             implement deflationary
           </div>
-          <div className="flex flex-col lg:flex-row justify-between mt-10 show-animate-fade-in">
-            <div className="text-before">
-              <span className="circle-text relative text-2xl font-semibold">
-                Token Burn
-              </span>
-              <div className="circle relative mt-20 mx-auto w-48 h-48 rounded-full flex justify-center items-center bg-gradient-roadmap">
-                <span className="font-extrabold text-5xl leading-normal">
-                  NOV 2021
+          <div className="grid grid-cols-1 lg:grid-cols-4 justify-between mt-10 show-animate-fade-in">
+            <div className="text-before show-animate-to-bottom">
+              <ul className="circle-text list-disc relative text-base text-left">
+                <li>Website construction.</li>
+                <li>Tokenomics, Token Metrics.</li>
+                <li>
+                  Build a global Telegram community in English, Chinese,
+                  Vietnamese.
+                </li>
+                <li>Do environmental protection events.</li>
+                <li>Connecting KOLs & Big Partners.</li>
+              </ul>
+              <div className="circle relative mt-20 mx-auto w-32 h-32 rounded-full flex justify-center items-center bg-gradient-roadmap">
+                <span className="font-extrabold text-3xl leading-normal">
+                  SEP 2022
                 </span>
               </div>
             </div>
-            <div className="text-after mt-10 lg:mt-0">
-              <span className="circle-text lg:hidden relative text-2xl font-semibold">
-                OCTOPUS Wallet
-              </span>
-              <div className="circle relative mt-20 lg:mt-52 mx-auto mb-10 lg:mb-20 w-48 h-48 rounded-full flex justify-center items-center bg-gradient-roadmap">
-                <span className="font-extrabold text-5xl leading-normal">
-                  NOV 2021
+            <div className="text-after mt-10 lg:mt-0 show-animate-to-top">
+              <ul className="lg:hidden circle-text list-disc relative text-base text-left">
+                <li>Presale on Pinksale.</li>
+                <li>Listing Pancakeswap.</li>
+                <li>Advertise Poocoin / Week.</li>
+                <li>Reach 1000 members.</li>
+                <li>TelegramGLB reaches 5000 Members.</li>
+                <li>Listed on CMC and CGK.</li>
+              </ul>
+              <div className="circle relative mt-20 lg:mt-24 mx-auto mb-10 lg:mb-20 w-32 h-32 rounded-full flex justify-center items-center bg-gradient-roadmap">
+                <span className="font-extrabold text-3xl leading-normal">
+                  JAN 2023
                 </span>
               </div>
-              <span className="hidden lg:block circle-text relative text-2xl font-semibold">
-                OCTOPUS Wallet
-              </span>
+              <ul className="hidden lg:block circle-text list-disc relative text-base text-left">
+                <li>Presale on Pinksale.</li>
+                <li>Listing Pancakeswap.</li>
+                <li>Advertise Poocoin / Week.</li>
+                <li>Reach 1000 members.</li>
+                <li>TelegramGLB reaches 5000 Members.</li>
+                <li>Listed on CMC and CGK.</li>
+              </ul>
             </div>
-            <div className="text-before">
-              <span className="circle-text relative text-2xl font-semibold">
-                Smart Contracts
-              </span>
-              <div className="circle relative mt-20 mx-auto w-48 h-48 rounded-full flex justify-center items-center bg-gradient-roadmap">
-                <span className="font-extrabold text-5xl leading-normal">
-                  NOV 2021
+            <div className="text-before show-animate-to-bottom">
+              <ul className="circle-text list-disc relative text-base text-left">
+                <li>Market release.</li>
+                <li>Reach 3000 holders.</li>
+                <li>Update Game.</li>
+                <li>Advertise on major platforms like Facebook, Google.</li>
+              </ul>
+              <div className="circle relative mt-20 mx-auto w-32 h-32 rounded-full flex justify-center items-center bg-gradient-roadmap">
+                <span className="font-extrabold text-3xl leading-normal">
+                  MAY 2023
                 </span>
               </div>
             </div>
-            <div className="text-after mt-10 lg:mt-0">
-              <span className="circle-text lg:hidden relative text-2xl font-semibold">
-                Pinpon Release
-              </span>
-              <div className="circle relative mt-20 lg:mt-52 mx-auto mb-10 lg:mb-20 w-48 h-48 rounded-full flex justify-center items-center bg-gradient-roadmap">
-                <span className="font-extrabold text-5xl leading-normal">
-                  NOV 2021
+            <div className="text-after mt-10 lg:mt-0 show-animate-to-top">
+              <ul className="lg:hidden circle-text list-disc relative text-base text-left">
+                <li>CEX Gate, Kucoin, Huobi, Binance...</li>
+                <li>Update to improve.</li>
+                <li>Reach 15000 Holders.</li>
+                <li>Update website.</li>
+                <li>Ama and binance.</li>
+              </ul>
+              <div className="circle relative mt-20 lg:mt-24 mx-auto mb-10 lg:mb-20 w-32 h-32 rounded-full flex justify-center items-center bg-gradient-roadmap">
+                <span className="font-extrabold text-3xl leading-normal">
+                  JUN 2023
                 </span>
               </div>
-              <span className="hidden lg:block circle-text relative text-2xl font-semibold">
-                Pinpon Release
-              </span>
-            </div>
-            <div className="text-before">
-              <span className="circle-text relative text-2xl font-semibold">
-                Crypto Loans
-              </span>
-              <div className="circle relative mt-20 mx-auto w-48 h-48 rounded-full flex justify-center items-center bg-gradient-roadmap">
-                <span className="font-extrabold text-5xl leading-normal">
-                  NOV 2021
-                </span>
-              </div>
+              <ul className="hidden lg:block circle-text list-disc relative text-base text-left">
+                <li>CEX Gate, Kucoin, Huobi, Binance...</li>
+                <li>Update to improve.</li>
+                <li>Reach 15000 Holders.</li>
+                <li>Update website.</li>
+                <li>Ama and binance.</li>
+              </ul>
             </div>
           </div>
         </div>

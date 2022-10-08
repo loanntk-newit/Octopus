@@ -31,11 +31,16 @@ module.exports = {
       },
       animation: {
         "to-bottom": "toBottom 1s linear",
+        "to-top": "toTop 1s linear",
         "to-right": "toRight 1s linear",
         fadeIn: "fadeIn 2s linear",
         "to-bottom-infinite": "toBottomInfinite 3s linear infinite",
       },
       keyframes: {
+        toTop: {
+          "0%": { transform: "translateY(25%)" },
+          "100%": { transform: "translateY(0)" },
+        },
         toBottom: {
           "0%": { transform: "translateY(-25%)" },
           "100%": { transform: "translateY(0)" },

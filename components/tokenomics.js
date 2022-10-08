@@ -4,7 +4,7 @@ import Container from "./container";
 export default function Tokenomics() {
   return (
     <div id="tokenomics">
-      <Container className="flex items-center mb-20 show-animate-fade-in">
+      <Container className="flex items-center mb-20">
         <div className="text-center w-full">
           <h2 className="text-6xl text-title font-extrabold leading-snug tracking-tight lg:leading-tight xl:text-6xl xl:leading-tight">
             Tokenomics
